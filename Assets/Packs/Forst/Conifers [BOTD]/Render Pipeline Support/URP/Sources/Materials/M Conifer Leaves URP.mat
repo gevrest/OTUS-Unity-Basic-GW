@@ -51,7 +51,7 @@ Material:
     m_Floats:
     - _AmbientTranslucency: 2
     - _BAKEDBRANCHAXIS: 0
-    - _BackFaceSmoothness: 0.71
+    - _BackFaceSmoothness: 0.7
     - _BumpScale: 4
     - _Cutoff: 0.5
     - _EdgeFlutterInfluence: 0
@@ -63,7 +63,7 @@ Material:
     - _LeafTurbulence: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0.68
+    - _Smoothness: 0.7
     - _TumbleFrequency: 0.6
     - _TumbleStrength: 0.012
     m_Colors:
