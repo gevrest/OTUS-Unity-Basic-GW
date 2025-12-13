@@ -7,6 +7,7 @@ namespace Game
     {
         [Header("Components")]
         [SerializeField] private CharacterController _characterController;
+
         [Header("Values")]
         [SerializeField] private float _moveSpeed = 5.0f;
         [SerializeField] private float _sprintSpeed = 10.0f;
@@ -17,6 +18,11 @@ namespace Game
 
         private void Update()
         {
+            if (Time.timeScale == 0f)
+            {
+                return;
+            }
+
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
