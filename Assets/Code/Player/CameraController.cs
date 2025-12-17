@@ -4,7 +4,7 @@ namespace Game
 {
     public sealed class CameraController : MonoBehaviour
     {
-        [SerializeField] private float _sensitivity = 2.0f;
+        [SerializeField] private float _sensitivity = 1.5f;
         [SerializeField] private float _maxYAngle = 80.0f;
 
         private float _rotationX = 0.0f;
